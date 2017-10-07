@@ -12,7 +12,7 @@ void setup() {
 // The loop() function runs after the startup and runs indefinitely
 void loop() {
   // Moves servo from one extreme to another
-  for (int pos = 0; pos < 180; pos+=10) {
+  for (int pos = 0; pos < 180; pos += 10) {
     servoVarName.write(pos);
     delay(5);  // Add a delay to control the speed that the servo changes
   }
