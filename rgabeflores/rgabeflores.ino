@@ -16,7 +16,7 @@ void loop() {
     // The condition simulates a "sprinkler" motion by running the following
     //   instructions only when the desired position is divisible by 30
     //   (i.e pos = 30, pos = 60, pos = 90... etc.)
-    if(pos % 30 == 0){
+    if (pos % 30 == 0) {
       servoVarName.write(pos);
       delay(10);  // Add a delay to control the speed that the servo changes
     }
